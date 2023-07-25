@@ -12,6 +12,7 @@
     - Add a Favourites
 - Data
 	- storeMealsList - an array
+	- localstorage
 	- mealdata - {...all details fetched from API}
 - Functions (in code)
 	- takeValue ->onimput event listener, tries to take data evertirm we enter datta

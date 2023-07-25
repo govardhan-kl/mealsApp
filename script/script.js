@@ -128,6 +128,7 @@ document.addEventListener('click',handleClickListener);
 function setUpLocal(){ // this is to setup localstorage whenevver project is freshly started 
     let check = JSON.parse(localStorage.getItem('likedList'));
     if (check == null){
+        console.log("null")
         localStorage.setItem('likedList',JSON.stringify([]))//{local:"local"}
         return;
     } 
