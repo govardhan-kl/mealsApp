@@ -1,0 +1,17 @@
+
+body{
+    background-color: darkgray;
+}
+
+#mealData{
+    margin: 5% 10%;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+p{
+    text-align: justify;
+}

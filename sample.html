@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<input type="text" id="try" oninput="detect()">
+		<br>
+		<p><span id="output"></span><p>
+		<script>
+			function detect(){
+				let txt = document.getElementById("try").value;
+				console.log(txt)
+				document.getElementById("output").innerText = txt;
+				console.log('executed');
+			}
+		</script>
+	</body>
+</html>
